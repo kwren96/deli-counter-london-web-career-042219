@@ -11,8 +11,8 @@ length = katz_deli.count
     index += 1
     deliline << "#{index}. #{customer}"
     list = deliline.join(', ')
-    end
     puts "The line is currently: #{list}"
+    end
 end
 end
 
