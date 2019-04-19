@@ -19,8 +19,7 @@ end
 def take_a_number(katz_deli, string)
   katz_deli << string
   length = katz_deli.count 
-  length += 1
-  puts "string, #{length}"
+  puts "Welcome #{string}. You are number #{length} in line."
 end
 
 def now_serving
