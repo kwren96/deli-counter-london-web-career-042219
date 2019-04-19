@@ -11,7 +11,8 @@ length = katz_deli.count
     index += 1
     deliline << "#{index}. #{customer}"
     end
-    deliline
+    list = deliline.join 
+    
 end
 end
 
