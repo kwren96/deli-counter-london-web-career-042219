@@ -18,7 +18,8 @@ end
 
 def take_a_number(katz_deli, string)
   katz_deli << string
-  length = katz_deli.count += 1
+  length = katz_deli.count 
+  length += 1
   puts "string, #{length}"
 end
 
