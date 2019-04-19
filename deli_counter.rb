@@ -22,6 +22,6 @@ def take_a_number(katz_deli, string)
   puts "Welcome, #{string}. You are number #{length} in line."
 end
 
-def now_serving
-  
+def now_serving(katz_deli)
+  katz_deli
 end
