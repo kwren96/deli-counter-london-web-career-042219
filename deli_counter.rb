@@ -5,12 +5,13 @@ def line(katz_deli)
 length = katz_deli.count
   if length == 0
     puts 'The line is currently empty.'
-  else katz_deli.each_with_index do |customer, index|
-  deliline = []
-  index += 1
-  deliline << "#{index}. #{customer}"
-  
-  end
+  else 
+    katz_deli.each_with_index do |customer, index|
+    deliline = []
+    index += 1
+    deliline << "#{index}. #{customer}"
+    end
+    deliline
 end
 end
 
