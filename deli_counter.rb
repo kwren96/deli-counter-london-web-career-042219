@@ -12,8 +12,7 @@ length = katz_deli.count
     deliline << "#{index}. #{customer}"
     end
     list = deliline.join(', ') 
-    puts ''
-    
+    puts 'There are'
 end
 end
 
