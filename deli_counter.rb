@@ -25,9 +25,9 @@ end
 def now_serving(katz_deli)
   length = katz_deli.count 
   if length == 0
-    puts "There is nobody waiting to be served"
+    puts "There is nobody waiting to be served!"
   else 
   firstinline = katz_deli.shift
-  puts firstinline
+  puts "Currently serving #{firstinline}"
 end
 end
