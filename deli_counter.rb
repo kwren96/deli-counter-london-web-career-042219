@@ -8,9 +8,9 @@ length = katz_deli.count
   else katz_deli.each_with_index do |customer, index|
   deliline = []
   index += 1
-  
-    puts "The line is currently: #{index}. #{customer}"
+  deliline << "#{index}. #{customer}"
   end
+  puts "The line is currently: #{deliline}"
 end
 end
 
