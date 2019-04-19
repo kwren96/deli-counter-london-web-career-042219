@@ -11,7 +11,8 @@ length = katz_deli.count
     index += 1
     deliline << "#{index}. #{customer}"
     end
-    puts 'There are'
+    list = deliline.
+    puts 'The line is currently: #{list}'
 end
 end
 
